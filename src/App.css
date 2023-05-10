@@ -1,0 +1,137 @@
+.container-fluid{
+  background: linear-gradient(to right, #2ebf91, #8360c3); 
+}
+
+.todolistname{
+  padding:12px;
+  text-align: center;
+}
+.todoname{
+  padding:12px;
+  text-align:center;
+}
+.contain {
+  margin:auto;
+}
+.date{
+  padding:12px;
+}
+.date input{
+  width:100%;
+  padding:12px;
+  outline:none;
+}
+.todotext label{
+  position:relative;
+  top:110px;
+  left:80px;
+}
+.todoname input{
+  width:100%;
+  padding:12px;
+  outline:none;
+}
+.todotext{
+  padding:12px;
+}
+.todotext textarea{
+  width:100%;
+  padding:12px;
+  resize:none;
+  height:30vh;
+  outline:none;
+}
+.add{
+  padding:12px;
+}
+.add button{
+  width: 100%;
+  padding:8px;
+  background: linear-gradient(to left, #2ebf91, #8360c3); 
+  border:2px solid #2ebf91;
+  font-weight:bold;
+
+}
+.todoevent span{
+  padding:6px;
+}
+form{
+  margin:auto;
+}
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+.space-around-x{
+  justify-content:space-between;
+}
+.row{
+  display:flex;
+}
+ul{
+  list-style: none;
+}
+.newlist{
+  padding:12px;
+}
+.newlist a{
+  padding:6px;
+}
+
+
+.col-auto{width: max-content;}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.container{
+  padding:12px;
+}
+.answer{
+  
+  padding:18px;
+  margin:20px 0px;
+  background: linear-gradient(to right,#8360c3,#2ebf91); 
+}
+.todoevent a{
+ padding:6px;
+}
+.tododesc{
+  max-height: 0;
+  /* overflow: hidden; */
+  transition-duration: 1s;
+}
+
+.tododesc-open {
+  max-height: 100px;
+}
+@media only screen and (max-width: 992px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  .row{
+   flex-wrap:wrap;
+  }
+
+}
+
